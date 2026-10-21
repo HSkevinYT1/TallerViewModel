@@ -51,7 +51,5 @@ fun ContadorScreen(vm: ContadorViewModel = viewModel()) {
         Spacer(Modifier.height(12.dp))
         OutlinedButton(onClick = { vm.reiniciar() }) { Text("Reiniciar") }
 
-        Spacer(Modifier.height(24.dp))
-        Text("Gira el teléfono: el número no se pierde porque vive en el ViewModel.")
     }
 }
